@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  body{
+padding: 0;
+margin: 0;
+line-height: 1.6;
+background-color: rgb(8, 8, 81);
+
+  }
+  
+  
+  .hero {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .name{
+    border-style: outset;
+    border-width: 1px;
+    border-color: rgb(181, 170, 109);
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+  
+  nav {
+    width: 84%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo {
+    width: 80px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+  }
+  
+ a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;;
+    font-weight: 400px;
+    margin-left: 40px;
+  }
+a::after{
+    content: '';
+    position: absolute  ;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  a:hover::after{
+    transform: scaleX(1);
+  }
+  
+  .back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+
+
+
+#main{
+ background-color: #cd8c6d;
+}
+.chinh  {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+    line-height: 1.6;
+    padding-bottom: 50px;
+
+    
+}
+.chinh h1{
+    text-align: center;
+    line-height: 1.4;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.chinh h2{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "SVN-Epitaph", sans-serif;
+    
+}
+.chinh p{
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(8, 8, 81);
+    font-size: 18px;
+}
+.container{
+  width: 60%;
+  margin: auto;
+  color: #cd8c6d;
+}
+.boxes{
+  padding-top: 20px;
+}
+.box1{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+}
+
+.box2{
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+}
+
+.box3{
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+
+.container  img{
+  height: 400px;
+  padding-top: 70px;
+  border-top-right-radius: 20%;
+	border-top-left-radius: 20%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+#showcase{
+  background-image:url(../img/guteam.jpg);
+}
+

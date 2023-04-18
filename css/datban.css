@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.5;
+}
+#showcase{
+    background-image: url('../gu-home-thumb.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff ;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: -2px;
+    transition: .5s;
+}
+.button:hover{
+    background-color: #fff;
+    color: #162938;
+}
+a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px;
+}
